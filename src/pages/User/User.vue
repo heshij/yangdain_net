@@ -1,6 +1,7 @@
 <template>
     <div class="User">
         我
+        <MenuBar></MenuBar>
     </div>
 </template>
 

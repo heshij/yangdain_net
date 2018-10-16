@@ -1,6 +1,7 @@
 <template>
     <div class="Home">
         我是首页
+        <MenuBar></MenuBar>
     </div>
 </template>
 

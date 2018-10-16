@@ -1,6 +1,7 @@
 <template>
     <div class="ShopCar">
         我是购物车
+        <MenuBar></MenuBar>
     </div>
 </template>
 

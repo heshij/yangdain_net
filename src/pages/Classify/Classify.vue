@@ -1,6 +1,7 @@
 <template>
     <div class="Classify">
         我是分类
+        <MenuBar></MenuBar>
     </div>
 </template>
 
