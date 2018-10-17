@@ -50,7 +50,7 @@
         width: 60px;
         height: inherit;
         float: left;
-        text-align: center;
+        text-align: left;
         line-height: 62px;
         font-size: 40px;
         background-color: #fff;
