@@ -1,7 +1,9 @@
 <template>
     <div class="Home">
-        <Search class="search"></Search>
-        <banner class="banner"></banner>
+        <div class="wrap">
+            <Search class="search"></Search>
+            <banner class="banner"></banner>
+        </div>
         <MenuBar></MenuBar>
     </div>
 </template>
@@ -20,6 +22,16 @@
 </script>
 
 <style scoped>
+    .Home{
+        width: 750px;
+        height: auto;
+
+    }
+    .Home .wrap{
+        width: 100%;
+        height: 474px;
+        position: relative;
+    }
     .Home .search{
         position: absolute;
         z-index: 2;
