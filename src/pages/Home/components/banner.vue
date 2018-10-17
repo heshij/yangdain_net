@@ -1,6 +1,6 @@
 <template>
     <div class="banner">
-        <swiper :options="swiperOption" ref="mySwiper" @someSwiperEvent="callback">
+        <swiper :options="swiperOption" ref="mySwiper" @someSwiperEvent="callback()">
             <!-- slides -->
             <swiper-slide
                     v-for="item of imgList"
