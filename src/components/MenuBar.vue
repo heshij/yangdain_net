@@ -3,25 +3,25 @@
         <ul>
             <li>
                 <router-link to="/">
-                    <span class="iconfont">&#xe749;</span>
+                    <span class="iconfont">&#xe617;</span>
                     <span class="text">首页</span>
                 </router-link>
             </li>
             <li>
                 <router-link to="/Classify">
-                    <span class="iconfont">&#xe623;</span>
+                    <span class="iconfont">&#xe60b;</span>
                     <span class="text">分类</span>
                 </router-link>
             </li>
             <li>
                 <router-link to="/ShopCar">
-                    <span class="iconfont">&#xe78f;</span>
+                    <span class="iconfont">&#xe60a;</span>
                     <span class="text">购物车</span>
                 </router-link>
             </li>
             <li>
                 <router-link to="/User">
-                    <span class="iconfont">&#xe658;</span>
+                    <span class="iconfont">&#xe647;</span>
                     <span class="text">我</span>
                 </router-link>
             </li>
