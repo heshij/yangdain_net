@@ -5,6 +5,8 @@ import Home from './pages/Home/Home'
 import Classify from './pages/Classify/Classify.vue'
 import ShopCar from './pages/ShopCar/ShopCar.vue'
 import User from './pages/User/User.vue'
+import SearchPage from './pages/SearchPage/SearchPage.vue'
+
 
 Vue.use(Router)
 
@@ -31,6 +33,11 @@ export default new Router({
             path: '/User',
             name: 'User',
             component: User
+        },
+        {
+            path: '/SearchPage',
+            name: 'SearchPage',
+            component: SearchPage
         },
         /*{
             path: '/about',
