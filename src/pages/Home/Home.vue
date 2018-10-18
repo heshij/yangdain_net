@@ -22,11 +22,7 @@
 </script>
 
 <style scoped>
-    .Home{
-        width: 750px;
-        height: auto;
 
-    }
     .Home .wrap{
         width: 100%;
         height: 474px;
@@ -43,5 +39,8 @@
     .Home .banner{
         position: absolute;
         z-index: 1;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
     }
 </style>
