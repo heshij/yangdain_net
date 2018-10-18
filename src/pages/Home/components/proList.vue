@@ -64,7 +64,7 @@
             swiper,
             swiperSlide
         },
-        props:["info"],
+        props: ["info"],
         data() {
             return {
                 swiperOption: {},
@@ -73,17 +73,17 @@
                 proList: this.info.proList,
             }
         },
-        filters:{
-            floatNums(val){
+        filters: {
+            floatNums(val) {
                 return val.toFixed(2)
             },
-            rmb(val){
+            rmb(val) {
                 return "￥" + val
             },
-            ellipsis(val){
+            ellipsis(val) {
                 const nums = 20;
                 if (val.length > nums) {
-                    return val.substring(0,nums) + "..."
+                    return val.substring(0, nums) + "..."
                 }
             }
         }
@@ -100,12 +100,14 @@
         line-height: 96px;
         margin-left: 20px;
     }
-    .wrapList h2 span:first-child{
+
+    .wrapList h2 span:first-child {
         margin-right: 8px;
         font-size: 40px;
         /*color: #ff9900;*/
     }
-    .wrapList h2 span:last-child{
+
+    .wrapList h2 span:last-child {
         font-size: 28px;
         color: #333333;
     }
@@ -138,16 +140,19 @@
         margin: auto;*/
         width: 100%;
     }
-    .wrapList .proList-items li .price{
+
+    .wrapList .proList-items li .price {
         height: 57px;
         display: flex;
         justify-content: space-around;
     }
-    .proList-items li p{
+
+    .proList-items li p {
         padding: 0 30px;
         font-size: 28px;
         color: #555555;
     }
+
     .new_price {
         font-size: 28px;
         color: #ffa002;
