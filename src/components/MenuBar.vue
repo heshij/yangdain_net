@@ -39,6 +39,9 @@
         width: 100%;
         height: 100px;
         bottom: 0;
+        z-index: 999;
+        background: #fff;
+        border-top: 2px solid #eeeeee;
     }
 
     .MenuBar ul {
